@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
+    'title' => 'Facturation Auto Entrepreneur',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -222,7 +222,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Control Sidebar (Right Sidebar)
+    | Control Sidebar ( Right Sidebar )
     |--------------------------------------------------------------------------
     |
     | Here we can modify the right sidebar aka control sidebar of the admin panel.
@@ -318,7 +318,7 @@ return [
             'label'       => 4,
             'label_color' => 'success',
         ],
-        ['header' => 'account_settings'],
+        [ 'header' => 'account_settings' ],
         [
             'text' => 'profile',
             'url'  => 'admin/settings',
@@ -367,7 +367,7 @@ return [
                 ],
             ],
         ],
-        ['header' => 'labels'],
+        [ 'header' => 'labels' ],
         [
             'text'       => 'important',
             'icon_color' => 'red',

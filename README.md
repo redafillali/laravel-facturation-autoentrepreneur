@@ -21,3 +21,6 @@ Pour installer l'application, il faut suivre les étapes suivantes:
 
 ## A propose de Laravel
 Laravel est un framework PHP open-source, créé par Taylor Otwell et destiné au développement d'applications web avec PHP. Il est conçu selon le modèle MVC (Modèle-Vue-Controleur) et suit les principes du design pattern ActiveRecord. Il est distribué sous licence MIT.
+
+## AdminLte-3 package Documentation
+https://github.com/jeroennoten/Laravel-AdminLTE/wiki 
