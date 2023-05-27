@@ -11,9 +11,9 @@ class Compte extends Model {
     protected $fillable = [
         'Nom de la société',
         'Adresse',
-        'Téléphone',
+        'Telephone',
         'Email',
-        'Site web',
+        'Sitesweb',
         'Logo',
         'ICE',
         'etat',

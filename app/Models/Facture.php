@@ -9,9 +9,11 @@ class Facture extends Model {
     use HasFactory;
 
     protected $fillable = [
-        'Numéro',
+        'Numero',
         'Date',
         'Montant',
+        'Remise',
+        'type_remise',
         'Path',
         'contact_id',
         'compte_id',

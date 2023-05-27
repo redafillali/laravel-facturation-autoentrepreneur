@@ -19,12 +19,7 @@ class Service extends Model {
     }
 
     public function devis() {
-        return $this->belongsToMany( Devis::class, 'bon_service', 'bon_id', 'service_id' );
-    }
-
-    public function bons() {
-        // use pivot table, many bons has many services
-        return $this->belongsToMany( Bon::class, 'bon_service', 'bon_id', 'service_id' );
+        return $this->belongsToMany( Devis::class, 'devi_service', 'devi_id', 'service_id' );
     }
 
     // softdelete

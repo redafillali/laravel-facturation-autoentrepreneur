@@ -5,13 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Devis extends Model {
+class Devi extends Model {
     use HasFactory;
 
     protected $fillable = [
-        'Numéro',
+        'Numero',
         'Date',
         'Montant',
+        'Remise',
+        'type_remise',
         'Path',
         'contact_id',
         'compte_id',

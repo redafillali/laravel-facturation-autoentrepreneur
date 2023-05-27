@@ -9,14 +9,13 @@ class Bon extends Model {
     use HasFactory;
 
     protected $fillable = [
-        'Numéro',
+        'Numero',
         'Date',
         'Montant',
         'Path',
         'contact_id',
         'compte_id',
         'devi_id',
-        'facture_id',
         'etat',
     ];
 
