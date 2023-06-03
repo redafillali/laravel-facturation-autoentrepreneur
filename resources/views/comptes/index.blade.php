@@ -1,13 +1,13 @@
 @extends('adminlte::page')
 
-@section('title', 'Dashboard')
+@section('title', 'Comptes')
 
 @section('content_header')
-<h1>Dashboard</h1>
+<h1>Liste des comptes</h1>
 @stop
 
 @section('content')
-<p>Welcome to this beautiful admin panel.</p>
+<livewire:comptes.list-comptes></livewire:comptes.list-comptes>
 @stop
 
 @section('css')

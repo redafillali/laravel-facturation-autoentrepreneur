@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return redirect( 'dashoard//home' );
+    return redirect( 'dashboard/home' );
 });
 
 Auth::routes();
