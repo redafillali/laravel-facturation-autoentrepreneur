@@ -13,9 +13,9 @@
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
-
+        <!-- Vite assets -->
+        @Vite(['resources/scss/app.scss', 'resources/js/app.js'])
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
         @livewireStyles
     </head>
 
