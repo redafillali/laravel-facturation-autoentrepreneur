@@ -5,8 +5,8 @@
 Une application Open-source, sous - Laravel, pour la gestion de facturation des autoentrepreneurs au Maroc.
 
 _*Prérequis:*_
-- Laravel 9
-- PHP 8
+- Laravel 10
+- PHP >= 8.1
 - NodeJS 14
 
 ### Installation
